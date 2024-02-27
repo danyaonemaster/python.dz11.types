@@ -10,6 +10,11 @@ if input_login in login_u:
     login : {input_login}
     password : {input_password}
     Access""")
+    else:
+        exit(f"""
+    login : {input_login}
+    password : {input_password}
+    Not Access""")
 else:
     exit(f"""
     login : {input_login}
