@@ -1,8 +1,6 @@
 input_login = input("Enter your login : ")
 login_u = ("admin", "user", "QA", "Dev", "superuser", "superadmin")
-
 pass_u = (125, 124, 354, 781, 874, 347)
-
 
 if input_login in login_u:
 
