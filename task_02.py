@@ -9,5 +9,6 @@ arithmetic mean : {round(sum(tuples) / len(tuples), 2)}""")
 
 for index, number in zip(range(1, 4), list_str):
     lists.append([i for i in tuples if len(str(i)) == index])
+
     print(f"{number} number - {len(lists[index - 1])} elements")
 
