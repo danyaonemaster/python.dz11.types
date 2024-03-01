@@ -7,4 +7,4 @@ print(f"""\nint len list: {len([i for i in tuples if isinstance(i, int)])}
 str len list: {len([i for i in tuples if isinstance(i, str)])}
 upper len list: {len([i for i in tuples if isinstance(i, str) and i.isupper()])}
 lower len list: {len([i for i in tuples if isinstance(i, str) and i.islower()])}
-all {user_input} in a tuple : {len([i for i in tuples if len(i) == user_input])}""")
+all {user_input} in a tuple : {len([i for i in tuples if str(i) == user_input])}""")
